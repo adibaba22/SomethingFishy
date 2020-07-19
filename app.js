@@ -8,7 +8,6 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routes/user');
 const productRoutes = require('./routes/product');
 
-
 mongoose.connect('mongodb://localhost:27017/tradeOffDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
