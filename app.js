@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use("/user", userRoutes);
 app.use("/products", productRoutes);
 
-app.get('/failed', (req, res) => {
+app.get('/failed', (req, res) =>{
     res.send("failed")
 })
 app.get('/success', (req, res) => {
